@@ -1,0 +1,13 @@
+projectDetails:
+  name: waffer
+  random_state: 42
+  schema: schema.py
+  data_store:
+    db: wafferdb
+    good_data: validated_data_good
+    bad_data: validated_data_bad
+    final_data: Training_Batch_Files/Wafer12_20012.csv
+    target_column: Target
+  raw_data:
+    training: Training_Batch_Files
+    predictioin: Prediction_Batch_files
