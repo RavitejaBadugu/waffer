@@ -1,0 +1,8 @@
+numpy
+pandas
+sklearn
+pywin32==225
+optuna
+dvc
+dvc[gdrive]
+streamlit
